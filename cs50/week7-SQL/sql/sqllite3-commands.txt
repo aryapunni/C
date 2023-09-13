@@ -1,0 +1,19 @@
+SELECT title FROM favorites;
+SELECT title FROM favorites ORDER BY title;
+SELECT title, year FROM movies WHERE year > 2017;
+SELECT title, COUNT(title) FROM favorites GROUP BY title;
+SELECT title FROM favorites WHERE title LIKE "%office%";
+SELECT AVG(rating) FROM ratings WHERE movie_id IN (SELECT id FROM movies WHERE year = 2012);
+// SELECT columns FROM table WHERE condition;
+UPDATE favorites SET title = "the office" WHERE title LIKE "%office%";
+SELECT title FROM favorites WHERE title LIKE "%office%";
+SELECT tilte FROM favorites LIMIT 5
+SELECT * FROM shows1 LIMIT 10;
+SELECT COUNT(*) FROM shows1;
+SELECT * FROM shows1 WHERE primaryTitle = "The Office";
+/////
+SELECT movies.title, ratings.rating
+  FROM movies
+  INNER JOIN ratings ON ratings.movie_id = movies.id
+  WHERE ratings.rating > 8
+  ORDER BY ratings.rating DESC, movies.title;

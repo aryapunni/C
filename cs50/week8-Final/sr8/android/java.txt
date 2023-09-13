@@ -1,0 +1,37 @@
+Java introduction
+
+java code must contain a class (one .java file must contain only one class),
+  that class must be the name of the file
+  Inside the class contain the main function
+
+Compiling java:
+  javac nameofthefile.java
+  java nameofthefile
+
+java hello world!:
+
+  class FirstJava {
+    public static void main(String [] args) {
+      System.out.println("hello world!");
+    }
+  }
+
+  here FirstJava is the class name and name of the file
+
+data types in java are:
+  like C, int char float bool etc also some other data types too
+
+if condition:
+    if(title.equals("hello world")){
+
+      System.out.println("wrong message");
+      System.out.println("the correct message is: " + title);
+
+    }
+    else {
+      System.out.println("entered the correct message");
+    }
+
+    notice the usage .equals
+these notes are not complete, there is notes lot more in detail where android begins, also in the programs itself there are some detailed comments too.
+

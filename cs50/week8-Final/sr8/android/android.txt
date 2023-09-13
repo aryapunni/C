@@ -1,0 +1,43 @@
+gradle:
+  android build system
+  converts java code into machine code
+  installs third party libraries to android studio
+
+MVC:
+  Model View Controller
+  Model:
+    Modeling data that we are going to use
+    java part of programming
+  View:
+    How the data is going to be displayed on the app
+  Controller:
+    Bridge between view and controller
+
+Activity:
+  Activity is something like a screen view of an app
+  if you open contact app the list of contact is an Activity
+  then when you touch a contact we move to the second  Activity
+
+Resources:
+  All that is not java code is called Resources
+  Layouts
+    How the app looks is Layouts
+    makes using xml
+  Intents
+    How one activity is transfered to another is called Intents
+    When you click something and that leads you to another activity
+    (all together another screen)  then that is called Intents
+    Data that is carried out from one screen to another is called is also
+    included in intents
+  Re cycler views
+      When there is alot of things to be displayed on the screen we use recyler views
+
+Androidmanifest.xml
+  Configuration file of android application
+
+Test files:
+  Files shown just down the main activity files are used for running various tests on application
+
+Res files:
+  They are the resource Files
+  One of them is Layouts which is uses for design the looks of the application
